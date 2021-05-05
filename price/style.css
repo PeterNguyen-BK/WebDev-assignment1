@@ -30,6 +30,10 @@ html, body {
     background-color: transparent !important;
 }
 
+.navbar .non-display {
+    display: none;
+}
+
 .navbar-brand {
     margin: 0 200px !important;
     padding-top: 0 !important;
@@ -74,6 +78,8 @@ html, body {
     padding: 5px 10px;
 }
 
+.search-bar {display: none !important;}
+
 .content .bg1, .bg2 {
     width: 100%;
     /* opacity: 0.65; */
@@ -89,20 +95,22 @@ html, body {
 
 .bg1 {
     background-image: url('../img/bg4.jpg');
-    min-height: 580px;
+    min-height: 550px;
 }
 
 .bg2 {
     background-image: url('../img/bg5.jpg');
-    min-height: 600px;
+    min-height: 400px;
 }
 
-.bg1 h2 {
+.bg1 h1 {
     color: white;
 }
 
 .bg1 p {
     color: white;
+    font-size: 24px;
+    font-weight: lighter;
 }
 
 .introduce, .introduce2 {
@@ -116,7 +124,57 @@ html, body {
     margin-bottom: 20px;
 }
 
+.content .services {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content .card {
+    width: 23rem !important;
+    transition-duration: 0.4s;
+    margin: 20px 20px;
+    /* margin-bottom: 20px; */
+    border: none;
+}
+
+.content .card:hover {
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 20px 2px #888888;
+}
+
+.content .card img {
+    transition-duration: 0.5s;
+}
+
+.content .card:hover img{
+    opacity: 0.65;
+    transition-duration: 0.5s;
+}
+
 .animate__animated .animate__lightSpeedInLeft {
     --animate-duration: 8s;
     --animate-delay: 5s;
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar .non-display {
+        display: block;
+    }
+
+    .navbar .navbar-collapse .navbar-brand {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .search-bar {
+        display: block !important;
+    }
 }

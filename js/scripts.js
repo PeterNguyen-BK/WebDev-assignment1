@@ -8,7 +8,7 @@ $(document).ready(function() {
     // });
     // console.log($('window'))
     $(window).bind('scroll', () => {
-        if ($(window).scrollTop() > $('.introduce').position()['top']) {
+        if ($(window).scrollTop() >= $('.introduce').position()['top']) {
             $('.header').addClass('sticky');
         } else if ($(window).scrollTop() == 0) {
             $('.header').removeClass('sticky');
