@@ -4,6 +4,15 @@ html, body {
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
+    background-attachment: fixed;
+}
+
+html {
+    overflow: hidden;   
+}
+
+body{
+    overflow: auto;
 }
 
 .header {
@@ -28,6 +37,10 @@ html, body {
     padding-bottom: 0 !important;
 }
 
+.content {
+    height: 100%;
+}
+
 .bg1, .bg2 {
     position: relative;
     opacity: 0.65;
@@ -50,7 +63,7 @@ html, body {
 }
 
 .bg2 {
-    background-image: url('../img/bg.jpg');
+    background-image: url('../img/bg2.jpg');
     min-height: 400px;
 }
 
