@@ -7,7 +7,7 @@ html, body {
 
 .header {
     width: 100%;
-    height: 90px;
+    height: 116px;
     z-index: 1;
     transition-duration: 0.5s;
 }
@@ -20,8 +20,8 @@ html, body {
 }
 
 .logo {
-    width: 150px;
-    height: 70px;
+    width: 170px;
+    height: 100px;
 }
 
 .navbar {
@@ -75,13 +75,27 @@ html, body {
     padding: 5px 10px;
 }
 
+.page-title {
+    background-image: url('../img/bg4.jpg');
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
 .title1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
     font-size: 50px;
     text-align: center;
-    color: skyblue;
+    color: rgb(255, 255, 255);
     margin-bottom: 20px;
-    position: relative;
-    text-shadow: 5px 5px 5px;
+    transform: translate(-50%, -50%);
+    /* position: relative; */
+    text-shadow: 3px 3px 5px;
 }
 
 .img-info {
@@ -95,6 +109,10 @@ html, body {
     font-weight: bold;
     color: darkgoldenrod;
     text-align: center;
+}
+
+.container {
+    margin: 50px auto;
 }
 
 .container a{
@@ -116,14 +134,16 @@ hr {
 }
 
 .content-img {
+    margin: 20px 10px;
     padding: 20px;
     padding-bottom: 0px;
     text-align: center;
-    transition: border 0.6s;
+    transition: 0.4s;
 }
 
 .content-img:hover {
     border: 3px solid grey;
+    box-shadow: 1px 1px 20px 2px #888888;
 }
 
 .line-bottom-small{
