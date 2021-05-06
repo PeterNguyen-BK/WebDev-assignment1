@@ -159,3 +159,7 @@ hr {
 .content-footer a:hover{
     color: aquamarine;
 }
+
+.content-footer{
+    text-align: justify;
+}
