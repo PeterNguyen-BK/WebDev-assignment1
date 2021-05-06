@@ -13,12 +13,20 @@
 <body>
     <div class="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand1 non-display" href="#">
-                <img class="logo" src="../img/logo-dark-01.png" alt="">
-            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
+            <a class="navbar-brand1 non-display" href="#">
+                <img class="logo" src="../img/logo-dark-01.png" alt="">
+            </a>
+            <div class="dropdown search-responsive">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="../img/loupe.svg" alt="">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                </div>
+            </div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent" style="width: 100%">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
@@ -49,10 +57,6 @@
                             </div>
                         </div>
                     </li>
-                    <form class="form-inline my-2 my-lg-0 search-bar">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
                 </ul>
             </div>
         </nav>
@@ -69,17 +73,22 @@
             <p>Bảng giá được cấu thành từ số lượng nhân viên, yêu cầu vệ sinh của từng dự án. Vì vậy, Quý khách hàng vui lòng liên hệ để được tư vấn và nhận báo giá chính xác nhất. Xin chân thành cảm ơn!</p>
         </div>
         <div class="bg2">
-            <p>Bảng giá</p>
+            <p>Bảng giá chi tiết các dịch vụ BK-Cleanly</p>
+            <div class="dark-layer"></div>
         </div>
 
         <div class="introduce2">
             <p style="margin-bottom: 50px;">Chi tiết từng hàng mục vệ sinh tại nhà xin xem các mục dưới đây.</p>
             <div class="services">
-                <div class="card text-center" style="width: 18rem;" data-toggle="modal" data-target="#exampleModalLong">
-                    <img class="card-img-top" src="../img/service1.jpg" alt="Card image cap">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="ribbon-wrapper" data-toggle="modal" data-target="#exampleModalLong">
+                        <div class="ribbon">GIẢM GIÁ</div>
+                    </div>
+                    <img class="card-img-top" src="../img/service1.jpg" alt="Card image cap" data-toggle="modal" data-target="#exampleModalLong">
                     <div class="card-body">
                         <h5 class="card-title">Dọn dẹp nhà</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Nhấn vào đây để xem chi tiết chi phí và đăng ký dịch vụ.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Chọn dịch vụ</a>
                     </div>
                 </div>
                 <!-- Modal -->
@@ -148,11 +157,12 @@
                     </div>
                 </div>
 
-                <div class="card text-center" style="width: 18rem;" data-toggle="modal" data-target="#exampleModalLong1">
-                    <img class="card-img-top" src="../img/service2.jpg" alt="Card image cap">
+                <div class="card text-center" style="width: 18rem;">
+                    <img class="card-img-top" src="../img/service2.jpg" alt="Card image cap" data-toggle="modal" data-target="#exampleModalLong1">
                     <div class="card-body">
                         <h5 class="card-title">Vệ sinh bàn ghế</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Nhấn vào đây để xem chi tiết chi phí và đăng ký dịch vụ.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong1">Chọn dịch vụ</a>
                     </div>
                 </div>
                 <!-- Modal -->
@@ -176,11 +186,12 @@
                     </div>
                 </div>
 
-                <div class="card text-center" style="width: 18rem;" data-toggle="modal" data-target="#exampleModalLong2">
-                    <img class="card-img-top" src="../img/service3.jpg" alt="Card image cap">
+                <div class="card text-center" style="width: 18rem;">
+                    <img class="card-img-top" src="../img/service3.jpg" alt="Card image cap" data-toggle="modal" data-target="#exampleModalLong2">
                     <div class="card-body">
                         <h5 class="card-title">Vệ sinh văn phòng</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Nhấn vào đây để xem chi tiết chi phí và đăng ký dịch vụ.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong2">Chọn dịch vụ</a>
                     </div>
                 </div>
                 <!-- Modal -->
@@ -204,11 +215,12 @@
                     </div>
                 </div>
 
-                <div class="card text-center" style="width: 18rem;" data-toggle="modal" data-target="#exampleModalLong3">
-                    <img class="card-img-top" src="../img/service4.jpg" alt="Card image cap">
+                <div class="card text-center" style="width: 18rem;">
+                    <img class="card-img-top" src="../img/service4.jpg" alt="Card image cap" data-toggle="modal" data-target="#exampleModalLong3">
                     <div class="card-body">
                         <h5 class="card-title">Dọn dẹp vườn cây</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Nhấn vào đây để xem chi tiết chi phí và đăng ký dịch vụ.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong3">Chọn dịch vụ</a>
                     </div>
                 </div>
                 <!-- Modal -->
@@ -232,11 +244,15 @@
                     </div>
                 </div>
 
-                <div class="card text-center" style="width: 18rem;" data-toggle="modal" data-target="#exampleModalLong4">
-                    <img class="card-img-top" src="../img/service5.jpg" alt="Card image cap">
+                <div class="card text-center" style="width: 18rem;">
+                    <div class="ribbon-wrapper" data-toggle="modal" data-target="#exampleModalLong4">
+                        <div class="ribbon">MỚI!</div>
+                    </div>
+                    <img class="card-img-top" src="../img/service5.jpg" alt="Card image cap" data-toggle="modal" data-target="#exampleModalLong4">
                     <div class="card-body">
                         <h5 class="card-title">Vận chuyển đồ hỏng</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Nhấn vào đây để xem chi tiết chi phí và đăng ký dịch vụ.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong4">Chọn dịch vụ</a>
                     </div>
                 </div>
                 <!-- Modal -->
@@ -260,11 +276,12 @@
                     </div>
                 </div>
 
-                <div class="card text-center" style="width: 18rem;" data-toggle="modal" data-target="#exampleModalLong5">
-                    <img class="card-img-top" src="../img/service6.jpg" alt="Card image cap">
+                <div class="card text-center" style="width: 18rem;">
+                    <img class="card-img-top" src="../img/service6.jpg" alt="Card image cap" data-toggle="modal" data-target="#exampleModalLong5">
                     <div class="card-body">
                         <h5 class="card-title">Vệ sinh nhà xưởng</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Nhấn vào đây để xem chi tiết chi phí và đăng ký dịch vụ.</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong5">Chọn dịch vụ</a>
                     </div>
                 </div>
                 <!-- Modal -->
@@ -290,11 +307,34 @@
 
             </div>
         </div>
+    </div>
 
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer1 col">
+                    <p class="banggia">
+                        Bảng giá của chúng tôi
+                    </p>
+                    <p class="content-footer">
+                        Nếu bạn muốn tham khảo giá, <a href="../contact">nhấn vào đây</a> sẽ có nhiều mức giá mà chúng tôi luôn cập nhật thường xuyên nhất.
+                    </p>
+                </div>
+                <div class="footer2 col">
+                    <p class="lienhe">
+                        Liên hệ với chúng tôi
+                    </p>
+                    <p class="content-footer">
+                        Nếu bạn muốn sử dụng dịch vụ hay cần chúng tôi tư vấn, hãy gọi ngay cho chúng tôi hoặc liên hệ chúng tôi qua nhiều hình thức khác. <a href="../contact">Nhấn vào đây</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="../js/scripts.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
