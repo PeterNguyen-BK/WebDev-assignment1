@@ -74,3 +74,44 @@ html, body {
 .search .dropdown-menu input {
     padding: 5px 10px;
 }
+
+.title1 {
+    font-size: 50px;
+    text-align: center;
+    color: skyblue;
+    margin-bottom: 20px;
+    position: relative;
+    right: 50px;
+    text-shadow: 5px 5px 5px;
+}
+
+.img-info {
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.dichvu {
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+.container a{
+    color: indigo;
+    font-weight: bold;
+}
+
+
+.container a:hover {
+    color: orange;
+}
+
+.footer {
+    margin-bottom: 50px;
+    text-align: justify;
+}
+.content-dichvu {
+    text-align: justify;
+}
