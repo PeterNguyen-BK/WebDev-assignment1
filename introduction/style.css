@@ -96,7 +96,7 @@ html, body {
 .search-responsive {display: none !important;}
 
 .content {
-    height: 100%;
+    height: auto;
 }
 
 #page-header {
@@ -139,9 +139,9 @@ html, body {
 }
 .content img {
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
 	
 }
 #heg100{

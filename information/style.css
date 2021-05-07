@@ -147,9 +147,9 @@ html, body {
     text-align: center;
 }
 
-.container {
+/* .container {
     margin: 20px auto;
-}
+} */
 
 .container a{
     color: indigo;
@@ -194,8 +194,8 @@ hr {
 
 .footer1 , .footer2 {
     color: #ddd;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
 }
 .lienhe, .banggia{
     font-size: large;
@@ -203,7 +203,6 @@ hr {
 }
 
 .footer {
-    margin-bottom: 50px;
     background-color: #282E34;
     margin-top: 20px;
 }
@@ -218,6 +217,12 @@ hr {
 
 .content-footer{
     text-align: justify;
+}
+
+#bfgg {
+	background-color: rgb(39, 45, 46);
+	color: #ffffff;
+	padding: 10px;
 }
 
 @media only screen and (max-width: 992px) {
