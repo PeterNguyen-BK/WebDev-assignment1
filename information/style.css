@@ -192,12 +192,12 @@ hr {
     margin-right: auto;
 }
 
-.footer1 , .footer2 {
+.footer1 , .footer2, .footer3, .footer4 {
     color: #ddd;
     /* margin-top: 20px;
     margin-bottom: 20px; */
 }
-.lienhe, .banggia{
+.lienhe, .banggia, .gioithieu, .dichvufooter{
     font-size: large;
     font-weight: bold;
 }
